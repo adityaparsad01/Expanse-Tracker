@@ -24,12 +24,12 @@ export const AddTransection = () => {
       <h3>नया लेनदेन जोड़ें</h3>
       <form onSubmit={onSubmit}>
         <div className="form-control">
-          <label htmlFor="text">Text</label>
+          <label htmlFor="text">कारण</label>
           <input
             type="text"
             value={text}
             onChange={(e) => setText(e.target.value)}
-            placeholder="Enter text..."
+            placeholder="राशी डालें..."
           />
         </div>
         <div className="form-control">
@@ -41,7 +41,7 @@ export const AddTransection = () => {
             type="number"
             value={amount}
             onChange={(e) => setAmount(e.target.value)}
-            placeholder="Enter amount..."
+            placeholder="राशी डालें..."
           />
         </div>
         <button className="btn">लेन-देन जोड़ें</button>
