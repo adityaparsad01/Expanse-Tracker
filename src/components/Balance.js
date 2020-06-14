@@ -9,7 +9,7 @@ export const Balance = () => {
   return (
     <>
       <h4>आपका शेष राशि</h4>
-      <h1>${total}</h1>
+      <h1>₹{total}</h1>
     </>
   );
 };
