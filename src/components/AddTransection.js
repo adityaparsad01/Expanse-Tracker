@@ -21,7 +21,7 @@ export const AddTransection = () => {
 
   return (
     <>
-      <h3>Add new transaction</h3>
+      <h3>नया लेनदेन जोड़ें</h3>
       <form onSubmit={onSubmit}>
         <div className="form-control">
           <label htmlFor="text">Text</label>
@@ -34,8 +34,8 @@ export const AddTransection = () => {
         </div>
         <div className="form-control">
           <label htmlFor="amount">
-            Amount <br />
-            (negative - expense, positive - income)
+            रकम <br />
+            (नकारात्मक - व्यय, सकारात्मक - आय)
           </label>
           <input
             type="number"
@@ -44,7 +44,7 @@ export const AddTransection = () => {
             placeholder="Enter amount..."
           />
         </div>
-        <button className="btn">Add transaction</button>
+        <button className="btn">लेन-देन जोड़ें</button>
       </form>
     </>
   );
