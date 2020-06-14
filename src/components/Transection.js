@@ -10,7 +10,7 @@ export const Transection = ({ transection }) => {
       <li className={transection.amount < 0 ? "minus" : "plus"}>
         {transection.text}{" "}
         <span>
-          {sign}₹{Math.abs(transection.amount)}
+          {sign} ₹ {Math.abs(transection.amount)}
         </span>
         <button
           onClick={() => deleteTransection(transection.id)}
