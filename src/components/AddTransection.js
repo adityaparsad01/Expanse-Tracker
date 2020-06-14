@@ -29,7 +29,7 @@ export const AddTransection = () => {
             type="text"
             value={text}
             onChange={(e) => setText(e.target.value)}
-            placeholder="राशी डालें..."
+            placeholder="लेन-देन का कारण ..."
           />
         </div>
         <div className="form-control">
