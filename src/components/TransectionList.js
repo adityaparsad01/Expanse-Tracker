@@ -6,7 +6,7 @@ export const TransectionList = () => {
 
   return (
     <>
-      <h3>History</h3>
+      <h3>इतिहास</h3>
       <ul className="list">
         {transection.map((transection) => (
           <Transection key={transection.id} transection={transection} />
